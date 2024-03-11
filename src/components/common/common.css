@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #e5e5e5;
+}
+
+.header-top {
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+.header-top__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+    color: black;
+}
+
+.header-logo {
+    color: inherit;
+    text-decoration: inherit;
+    font-family: RobotoRegular;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.header-logo:hover {
+    background-color: transparent;
+}
+
+.header-top__welcome {
+    margin-left: 65%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: RobotoRegular;
+    margin-right: 10px;
+}
+
+.header-top__seperator {
+    width: 100%;
+    border: none;
+    height: 2px;
+    margin-top: 2px;
+    background-color: black;
+}
+
+.header-top__navigation {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 55px;
+}
+
+.header-bottom {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 2px;
+    color: white;
+}
+
+.header-bottom__welcome {
+    display: flex;
+    flex: 5;
+    margin-top: 10px;
+    margin-left: 65px;
+    font-family: RobotoRegular;
+    font-size: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: 0;
+}
+
+.header-logo-finance {
+    color: green;
+}
+
+.header-logo-bot {
+    color: blue;
+}
+
+.dropdown {
+    color: transparent;
+    position: relative;
+    margin-right: 20px;
+}
+
+.suggestions-container{
+    margin-top: 5%;
+}

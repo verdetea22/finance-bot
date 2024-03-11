@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "finance-bot-cae6d",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
